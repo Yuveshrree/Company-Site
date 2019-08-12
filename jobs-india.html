@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home - Full Creative</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header>
+		<a href="#"><img src="images/logo.png"></a>
+		<button type="button" class="navbar-toggle">
+			<span class="nav-bars"></span>
+		</button>
+		<nav>
+			<ul>
+				<li><a href="index.html">Our Story</a></li>
+				<li><a href="experiments.html">Experiments</a></li>
+				<li><a href="blog.html">Articles</a></li>
+				<li>
+					<a href="jobs-india.html">Join Us</a>
+					<ul class="dropdown">
+						<li><a href="jobs-india.html">Join Us - India</a></li>
+						<li><a href="jobs-world.html">Join Us - World</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="container">
+		<div class="intro-section jobs-india">
+			<h1>We are hiring!</h1>
+			<p>We are hiring for various position at different location</p>
+			<img src="images/join_us.png" alt="hero-image">
+			<a href= "#content" class="double-cheveron fa fa-angle-double-down"></a>
+			<span class="contact-icon fa fa-comment" data-popup-open="popup-1"></span>
+			<div class="popup" data-popup="popup-1">
+				<div class="popup-inner">
+					<form class="popup-form">
+						<label>
+							Name:
+							<input type="text" name="name" placeholder="Enter your name">
+						</label>
+						<label>
+							Email:
+							<input type="email" name="mailid" placeholder="Enter your mail id">
+						</label>
+						<label>
+							Message:
+							<textarea rows="4" name="message" placeholder="What you would like to ask us?"></textarea>
+						</label>
+						<button type="submit" class="submit-btn">Submit</button>
+					</form>
+					<a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+				</div>
+			</div>
+		</div>
+		<div class="job-listing-wrapper">
+			<div class="job-list">
+				<div class="options">
+					<p class="states" target="1"><span class="fa fa-map"></span> Chennai</p>
+				</div>
+				<ul class="list" id="list-1">
+					<li><h4>Internship Opening</h4></li>
+					<li><a href="#">Design</a></li>
+					<li><a href="#">Development</a></li>
+					<li><a href="#">Operations</a></li>
+					<li><a href="#">Testing</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<ul>
+			<li><h4>Full Creative</h4></li>
+			<li><a href="index.html">Our Story</a></li>
+			<li><a href="experiments.html">Experiment</a></li>
+			<li><a href="blog.html">Article</a></li>
+			<li><a href="jobs-india.html">Join Us</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		<ul>
+			<li><h4>Products</h4></li>
+			<li><a href="#">Answerconnect (Answering Service)</a></li>
+			<li><a href="#">Answerforce (Answering Service)</a></li>
+			<li><a href="#">Distributed Source (CRM)</a></li>
+			<li><a href="#">Hello Sells (Sales Capture)</a></li>
+			<li><a href="#">Setmore (Appointment Booking)</a></li>
+			<li><a href="#">Yoco Board (Time Tracking)</a></li>
+		</ul>
+		<ul>
+			<li><h4>Policies</h4></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Code of Conduct</a></li>
+		</ul>
+		<ul>
+			<li><h4>Others</h4></li>
+			<li><a href="#">Feedback</a></li>
+			<li><a href="#" data-popup-open="popup-1">Contact</a></li>
+		</ul>
+	</footer>
+
+
+	<script type="text/javascript" src="assets/script/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/script/contact.js"></script>
+</body>
+</html>
